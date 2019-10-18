@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "labels": {
+    "translations": {
+      "title": {
+        "value": "Tutorial",
+        "description": "Title"
+      },
+      "search_button": {
+        "value": "Search",
+        "description": "Search button"
+      }
+    }
+  },
+  "contents": {
+    "assets": {
+      "coffeedata": { "type": "asset" },
+      "search": {
+        "type": "tags",
+        "value": { "or": ["tag1"] },
+        "description": "Searchable assets"
+      }
+    }
+  }
+}
